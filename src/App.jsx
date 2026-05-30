@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Dashboard from "./pages/Dashboard";
+import Dashboard from "./pages/DashboardTemp";
 import Tasks from "./pages/Tasks";
 import Notes from "./pages/Notes";
 import Timer from "./pages/Timer";
