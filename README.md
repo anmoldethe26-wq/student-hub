@@ -1,16 +1,73 @@
-# React + Vite
+# Student Hub 📚
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern productivity dashboard built with React and Vite to help students manage tasks, notes, focus sessions, analytics, and profile information.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://student-hub-delta-woad.vercel.app
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 📋 Task Management
+* 📝 Notes System
+* ⏱️ Focus Timer
+* 📊 Analytics Dashboard
+* 👤 User Profile
+* ⚙️ Settings Page
+* 💾 Local Storage Persistence
+* 📱 Responsive Interface
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* Vite
+* React Router DOM
+* CSS3
+* JavaScript (ES6)
+
+## 📸 Screenshots
+
+### Dashboard
+
+![Dashboard](./screenshots/dashboard.png)
+
+### Tasks
+
+![Tasks](./screenshots/tasks.png)
+
+### Notes
+
+![Notes](./screenshots/notes.png)
+
+
+
+## 📂 Project Structure
+
+src/
+├── components/
+├── pages/
+├── assets/
+├── App.jsx
+└── main.jsx
+
+## 🔧 Installation
+
+1. Clone the repository
+
+git clone https://github.com/anmoldethe26-wq/student-hub.git
+
+2. Install dependencies
+
+npm install
+
+3. Start development server
+
+npm run dev
+
+4. Build for production
+
+npm run build
+
+## 👨‍💻 Author
+
+Anmol Dethe
