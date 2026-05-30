@@ -1,5 +1,5 @@
 import Sidebar from "../components/Sidebar";
-import "./Profile.css";
+import "./profile.css";
 
 function Profile() {
 

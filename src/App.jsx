@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Dashboard from "./pages/Dashboard";
+import Dashboard from "./pages/dashboard";
 import Tasks from "./pages/Tasks";
 import Notes from "./pages/Notes";
 import Timer from "./pages/Timer";
 import Analytics from "./pages/Analytics";
 import Settings from "./pages/Settings";
-import Profile from "./pages/Profile";
+import Profile from "./pages/profile";
 
 function App() {
   return (
