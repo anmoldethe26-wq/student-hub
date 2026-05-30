@@ -6,7 +6,7 @@ import Notes from "./pages/Notes";
 import Timer from "./pages/Timer";
 import Analytics from "./pages/Analytics";
 import Settings from "./pages/Settings";
-import Profile from "./pages/profile";
+import Profile from "./pages/Profile";
 
 function App() {
   return (
