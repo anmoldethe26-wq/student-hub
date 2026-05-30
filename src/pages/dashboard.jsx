@@ -5,7 +5,7 @@ import Sidebar from "../components/Sidebar";
 import Header from "../components/Header";
 import DashboardCard from "../components/DashboardCard";
 
-import "./Dashboard.css";
+import "./dashboard.css";
 
 function Dashboard() {
 
