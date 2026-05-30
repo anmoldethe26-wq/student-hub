@@ -1,0 +1,229 @@
+.timer-page {
+    display: flex;
+    min-height: 100vh;
+
+    background:
+        radial-gradient(circle at top left, #1e3a8a, transparent 30%),
+        radial-gradient(circle at bottom right, #0f766e, transparent 30%),
+        #071028;
+
+    color: white;
+}
+
+.timer-container {
+    flex: 1;
+    padding: 40px;
+    text-align: center;
+}
+
+.timer-container h1 {
+    font-size: 42px;
+}
+
+.timer-subtitle {
+    color: #94a3b8;
+    margin-bottom: 40px;
+}
+
+.timer-card {
+
+    background: rgba(255, 255, 255, 0.06);
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    backdrop-filter: blur(15px);
+
+    border-radius: 30px;
+
+    padding: 40px;
+
+    max-width: 700px;
+
+    margin: auto;
+}
+
+.progress-ring {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    margin: auto;
+}
+
+.bg-circle {
+
+    fill: none;
+
+    stroke: #1e293b;
+
+    stroke-width: 12;
+}
+
+.progress-circle {
+
+    fill: none;
+
+    stroke: #3b82f6;
+
+    stroke-width: 12;
+
+    stroke-linecap: round;
+
+    stroke-dasharray: 691;
+
+    transform: rotate(-90deg);
+
+    transform-origin: center;
+
+    transition: 0.5s;
+}
+
+.timer-text {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform:
+        translate(-50%, -50%);
+
+    font-size: 48px;
+
+    font-weight: 700;
+}
+
+.timer-buttons {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    margin-top: 30px;
+}
+
+.timer-buttons button {
+
+    border: none;
+
+    cursor: pointer;
+
+    color: white;
+
+    padding: 14px 25px;
+
+    border-radius: 14px;
+
+    font-weight: 600;
+}
+
+.start-btn {
+    background: #22c55e;
+}
+
+.pause-btn {
+    background: #f59e0b;
+}
+
+.reset-btn {
+    background: #ef4444;
+}
+
+.session-card {
+
+    margin: 30px auto;
+
+    max-width: 350px;
+
+    background: rgba(255, 255, 255, 0.06);
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    backdrop-filter: blur(15px);
+
+    border-radius: 24px;
+
+    padding: 25px;
+}
+
+.session-card h1 {
+
+    font-size: 60px;
+
+    color: #f59e0b;
+}
+
+.timer-modes {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    margin-bottom: 25px;
+}
+
+.timer-modes button {
+
+    padding: 12px 20px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    background: rgba(255, 255, 255, 0.08);
+
+    color: white;
+
+    transition: 0.3s;
+}
+
+.active-mode {
+
+    background: #3b82f6 !important;
+
+    font-weight: 600;
+}
+
+.timer-modes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.timer-modes button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.08);
+    color: white;
+    transition: 0.3s;
+}
+
+.active-mode {
+    background: #3b82f6 !important;
+    font-weight: 600;
+}
+
+.session-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.session-stats h3 {
+    color: #3b82f6;
+    margin-bottom: 5px;
+}
+
+.session-stats span {
+    color: #94a3b8;
+    font-size: 14px;
+}
